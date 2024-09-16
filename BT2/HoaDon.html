@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HoaDon.css">
+</head>
+
+<body>
+    <h1> Clothes </h1>
+    <form>
+        <label> Product name
+            <input type="text" id="name" name="name">
+        </label>
+        <label> Product Quantity
+            <input type="text" id="qua" name="qua">
+        </label>
+        <label> Product Price
+            <input type="text" id="pri" name="pri">
+        </label>
+        <button type="button" onclick="add()">Add</button>
+    </form>
+    <table id="tbl">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Sub-total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+            <tr class="total">
+                <td colspan="4">Total Bill:</td>
+                <td id="totalBill">$0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="HoaDon.js">
+    </script>
+</body>
+
+</html>
