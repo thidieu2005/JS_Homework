@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 600px;
+    border-spacing: collapse;
+    border: 1px solid #bbb;
+    margin-top: 20px;
+}
+
+table tr {
+    padding: 10px;
+    height: 27px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 50%;
+    box-sizing: border-box;
+    /* Đảm bảo padding không làm tăng chiều rộng */
+}
+
+table th,
+td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-right: 10px;
+}
